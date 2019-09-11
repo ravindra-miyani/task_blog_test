@@ -1,0 +1,14 @@
+{
+    "name": "user_information/biodata",
+    "description": "Custom Package of Biodata",
+    "type": "librrary",
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "user_information\\biodata\\BiodataServiceProvider"
+            ]
+        }
+    }
+}
